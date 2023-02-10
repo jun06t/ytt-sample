@@ -1,0 +1,6 @@
+#@data/values-schema
+---
+env: dev
+labels:
+  key1: 0
+  key2: False

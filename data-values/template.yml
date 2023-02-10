@@ -1,0 +1,4 @@
+#@ load("@ytt:data", "data")
+
+env: #@ data.values.env
+labels: #@ data.values.labels
