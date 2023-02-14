@@ -1,0 +1,9 @@
+#@data/values
+---
+services:
+  - env: dev
+    labels:
+      key1: 20
+  - env: prd
+    labels:
+      key1: 10

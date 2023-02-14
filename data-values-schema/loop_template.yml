@@ -1,0 +1,7 @@
+#@ load("@ytt:data", "data")
+
+#@ for service in data.values.services:
+---
+env: #@ service.env
+labels: #@ service.labels
+#@ end
